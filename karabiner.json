@@ -328,26 +328,6 @@
                         "type": "basic"
                     },
                     {
-                        "description": "Windows + Space to Command + Space [WIP]",
-                        "from": {
-                            "key_code": "spacebar",
-                            "modifiers": {
-                                "mandatory": [
-                                    "left_option"
-                                ]
-                            }
-                        },
-                        "to": [
-                            {
-                                "key_code": "spacebar",
-                                "modifiers": [
-                                    "right_command"
-                                ]
-                            }
-                        ],
-                        "type": "basic"
-                    },
-                    {
                         "description": "PC-Style Copy/Paste/Cut",
                         "manipulators": [
                             {
