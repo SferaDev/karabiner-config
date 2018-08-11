@@ -15,6 +15,27 @@
                 },
                 "rules": [
                     {
+                        "description": "Ctrl + Left Click to Left Click",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    },
+                                    "pointing_button": "button6"
+                                },
+                                "to": [
+                                    {
+                                        "pointing_button": "button6"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Chrome: Control + Number to switch tabs",
                         "manipulators": [
                             {
