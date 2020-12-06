@@ -20,21 +20,13 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "spacebar",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control"
-                                        ]
-                                    }
+                                  "key_code": "spacebar",
+                                  "modifiers": { "mandatory": ["control"] }
                                 },
-                                "to": [
-                                    {
-                                        "key_code": "spacebar",
-                                        "modifiers": [
-                                            "command"
-                                        ]
-                                    }
-                                ],
+                                "to": [{
+                                  "key_code": "spacebar",
+                                  "modifiers": ["command"]
+                                }],
                                 "type": "basic"
                             }
                         ]
@@ -44,48 +36,13 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f4",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "option"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
+                                  "key_code": "f4",
+                                  "modifiers": { "mandatory": ["option"], "optional": ["any"] }
                                 },
-                                "to": [
-                                    {
-                                        "key_code": "q",
-                                        "modifiers": [
-                                            "command"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Fix ~ symbol",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "4",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "semicolon",
-                                        "modifiers": [
-                                            "right_option"
-                                        ]
-                                    }
-                                ],
+                                "to": [{
+                                  "key_code": "q",
+                                  "modifiers": ["command"]
+                                }],
                                 "type": "basic"
                             }
                         ]
